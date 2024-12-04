@@ -27,67 +27,67 @@ CREATING A DICE:
 
 1. To create a dice object called Die:
 
-    faces = np.array(['face_1', 'face_2'])
-    Die = Dice(faces)
+        faces = np.array(['face_1', 'face_2'])
+        Die = Dice(faces)
 
 
 2. To change the weight of the face_1 to 5.0:
 
-    Die.change_weight('face_1', 5.0)
+        Die.change_weight('face_1', 5.0)
 
 
 3. To roll the Die a 100 times:
 
-    Die.roll_the_die(100)
+        Die.roll_the_die(100)
 
 
 4. To show the current state of the Die:
 
-    Die.die_current_state()
+        Die.die_current_state()
 
 
 CREATING A GAME:
 
 1. To create Game object game with Die:
 
-    game = Game([Die])
+        game = Game([Die])
 
 
 2. To play the game a 100 times:
 
-    game.play(100)
+        game.play(100)
 
 
 3. To show results of the play in 'narrow' format:
 
-    game.show_results('narrow')
+        game.show_results('narrow')
 
 
 CREATING AN ANALYZER:
 
 1. To create an Analyzer object analyzer with game:
 
-    analyzer = Analyzer(game)
+        analyzer = Analyzer(game)
 
 
 2. To find the number of jackpots:
 
-    analyzer.jackpot()
+        analyzer.jackpot()
 
 
 3. To find count of all faces rolled:
 
-    analyzer.face_count()
+        analyzer.face_count()
 
 
 4. To get count of all combinations:
 
-    analyzer.combo_count()
+        analyzer.combo_count()
 
 
 5. To get count of all permutations:
 
-    analyzer.permutation_count()
+        analyzer.permutation_count()
 
 
 
