@@ -134,6 +134,8 @@ A class representing a die of N sides or 'faces' and W weights that can be rolle
                 List: A list of rolled faces (outcomes).
             
         die_current_state(): Returns a copy of the current state of the die.
+            INPUTS:
+                none
             OUTPUTS:
                 pd.DataFrame: A DataFrame of the die's faces and weights.
                 
