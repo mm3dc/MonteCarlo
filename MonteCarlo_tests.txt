@@ -1,0 +1,17 @@
+test_10_face_count (__main__.DieGameTestSuite.test_10_face_count) ... ok
+test_11_combo_count (__main__.DieGameTestSuite.test_11_combo_count) ... ok
+test_12_permutation_count (__main__.DieGameTestSuite.test_12_permutation_count) ... ok
+test_1_die_init (__main__.DieGameTestSuite.test_1_die_init) ... ok
+test_2_change_weight (__main__.DieGameTestSuite.test_2_change_weight) ... ok
+test_3_roll_the_die (__main__.DieGameTestSuite.test_3_roll_the_die) ... ok
+test_4_die_current_state (__main__.DieGameTestSuite.test_4_die_current_state) ... ok
+test_5_game_init (__main__.DieGameTestSuite.test_5_game_init) ... ok
+test_6_play (__main__.DieGameTestSuite.test_6_play) ... ok
+test_7_show_results (__main__.DieGameTestSuite.test_7_show_results) ... ok
+test_8_analyzer_init (__main__.DieGameTestSuite.test_8_analyzer_init) ... ok
+test_9_jackpot (__main__.DieGameTestSuite.test_9_jackpot) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.039s
+
+OK
